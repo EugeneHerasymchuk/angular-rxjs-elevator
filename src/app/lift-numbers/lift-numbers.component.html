@@ -1,0 +1,5 @@
+<div class="grid grid-cols-3 gap-3">
+  <button *ngFor="let floor of floors" class="p-2 rounded-lg shadow-lg bg-fuchsia-500" (click)="selectFloor.emit(floor)">
+    {{floor}}
+  </button>
+</div>
